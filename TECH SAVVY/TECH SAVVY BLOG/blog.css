@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header, .main, .container {
+    width: 100%;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.icon .logo {
+    margin: 0;
+    font-size: 2em;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px;
+}
+
+section#blog {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.blog-post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.blog-post h4 {
+    margin: 0 0 10px;
+}
+
+.blog-post p {
+    margin: 0 0 10px;
+}
+
+.blog-post a {
+    color: #333;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}

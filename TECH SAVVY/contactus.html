@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="p-icon" href="techsavvy.jpg">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Tech Savvy</h2>
+            </div>
+            <div class="menu">
+                <a href="index.html" target="_blank">HOME</a>
+                <a href="aboutus.html"  target="_blank">ABOUT</a>
+                <a href="services.html"  target="_blank">SERVICES</a>
+            </div>     
+            <div class="content1">
+                <h1><span>WELCOME TO</span> <br>TECH SAVVY<br><span>SOLUTIONS!</span></h1>
+            </div>                                       
+        </div>
+    </div> 
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <div class="container">    
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="post">
+                
+                <input type="text" id="name" name="name" placeholder="Full name" required>                
+                <input type="email" id="email" name="email" placeholder="Email" required>                
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>                
+                <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Tech Savvy Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
